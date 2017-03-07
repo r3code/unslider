@@ -6,6 +6,6 @@ Unslider
 The easiest way to get a simple slider up and running in seconds. All you need
 is some valid markup, jQuery and some extra CSS, and Unslider can do the rest.
 
-Check the docs out: http://unslider.com
+Check the docs out: http://idiot.github.io/unslider/
 
 Licensed under the [WTFPL](http://www.wtfpl.net).
