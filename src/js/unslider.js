@@ -460,16 +460,25 @@
 
 			//  If we're at the end, we need to move back to the start
 			if(target >= self.total) {
-				target = 0;
+				//loop or not loop?
+				if(self.options.noloop && !self.options.infinite) target = self.total-1;
+				else target = 0;
 			}
 
 			return self.animate(target, 'next');
 		};
 
-		//  Previous is a bit simpler, we can just decrease the index
-		//  by one and check if it's over 0.
+		//  The same as next, but the opposite :)
 		self.prev = function() {
-			return self.animate(self.current - 1, 'prev');
+			var target = self.current - 1;
+
+			//  If we're at the first, we need to move forward to the end
+			if(target < 0) {
+				//loop or not loop?
+				if(self.options.noloop && !self.options.infinite) target = 0;
+				else target = self.total-1;
+			}
+			return self.animate(target, 'prev');
 		};
 
 
