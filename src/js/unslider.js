@@ -482,6 +482,7 @@
 					target = self.total - 1;
 				}
 			}
+			
 			return self.animate(target, 'prev');
 		};
 
