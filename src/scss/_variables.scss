@@ -8,11 +8,11 @@
  */
  
 //  Unslider 2 has navigation styles pre-designed. You can turn it on or off here. Default is off (false).
-$unslider-dot-navigation: false;
-$unslider-dot-colour: #fff;
+$unslider-use-dot-navigation: false !default;
+$unslider-dot-colour: #fff !default;
 
 //  Unslider 2 has navigation styles pre-designed. You can turn it off here.
-$unslider-transition-function: cubic-bezier(.42,0,.58,1);
+$unslider-transition-function: cubic-bezier(.42,0,.58,1) !default;
 
 // Set a namespace for Unslider
-$unslider-namespace: 'unslider';
+$unslider-namespace: 'unslider' !default;

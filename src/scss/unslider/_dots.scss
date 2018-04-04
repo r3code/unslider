@@ -1,4 +1,5 @@
-@if($unslider-dot-navigation){
+@if($unslider-use-dot-navigation){    
+  /* Dots style */
 	.#{$unslider-namespace}-nav, %#{$unslider-namespace}-nav {
 		ol {
 			list-style: none;
