@@ -3,6 +3,8 @@
  *   to change anything here, and doing so might break
  *   stuff. Here be dragons and all that.
  */
+// to override vars create copy of _variables.scss place it in your scss folder,
+// name it _unslider-custom-vars.scss and import it before importing unslider.scss
 @import 'variables';
 @import 'unslider/reset';
 @import 'unslider/dots';
