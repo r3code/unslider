@@ -1,6 +1,6 @@
 {
   "name": "unslider",
-  "version": "2.0.3",
+  "version": "2.0.5",
   "description": "The simplest little slider.",
   "styles": [
     "dist/css/unslider.css",
@@ -27,5 +27,26 @@
   "homepage": "https://github.com/idiot/unslider#readme",
   "dependencies": {
     "jquery": "^1.12.4 || ^2.0.0 || 3.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "fancy-log": "^1.3.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-lint": "^1.3.4",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "jquery": "^3.3.1",
+    "run-sequence": "^2.2.1"
   }
 }
